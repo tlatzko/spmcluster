@@ -1,0 +1,10 @@
+#!/Users/latzko/work/spmcluster/.tox/2.7-cover/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'spm==0.1.0','console_scripts','spm'
+__requires__ = 'spm==0.1.0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('spm==0.1.0', 'console_scripts', 'spm')()
+    )

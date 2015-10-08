@@ -1,0 +1,17 @@
+actionid: 2.6-cover
+msg: getenv
+cmdargs: [local('/Users/latzko/work/spmcluster/.tox/2.6-cover/bin/pip'), 'install', 'nose', 'coverage']
+env: {'WITH_COVERAGE': 'yes', 'LC_CTYPE': 'UTF-8', 'TERM_PROGRAM_VERSION': '343.7', 'LOGNAME': 'latzko', 'USER': 'latzko', 'PATH': '/Users/latzko/work/spmcluster/.tox/2.6-cover/bin:/Users/latzko/work/devenv/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/latzko/work/devenv/bin:/opt/local/bin:/opt/local/sbin', 'HOME': '/Users/latzko', 'PYTHONUNBUFFERED': 'yes', 'PS1': '(devenv)%{\x1b[22;33m%}%1~ %{\x1b[00m%}> ', 'DBUS_LAUNCHD_SESSION_BUS_SOCKET': '/private/tmp/com.apple.launchd.NnNm5mDTEw/unix_domain_listener', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', 'TERM': 'screen-256color', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.OLQt6X4XMr/Render', 'LANGUAGE': 'en_US.UTF-8', 'SHLVL': '2', 'XPC_FLAGS': '0x0', 'DISPLAY': '/private/tmp/com.apple.launchd.iYHSGIQXvo/org.macosforge.xquartz:0', 'TEST_DATA': '/Users/latzko/work/experimental/data', 'PYTHONHASHSEED': '1497305466', 'TMPDIR': '/var/folders/8v/__84m9cj7cb1y1tn84r0cz6r0000gn/T/', 'TERM_SESSION_ID': '0AC84445-6A1A-4E9B-9C50-B8BC9CA3C69E', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.bMDVJflgYP/Listeners', 'CC': '/usr/local/bin/gcc-5', 'PYTHONPATH': '/Users/latzko/work/spmcluster/tests', 'XPC_SERVICE_NAME': '0', 'VIRTUAL_ENV': '/Users/latzko/work/spmcluster/.tox/2.6-cover', 'TMUX': '/private/var/folders/8v/__84m9cj7cb1y1tn84r0cz6r0000gn/T/tmux-501/default,10064,0', 'RUST_SRC_PATH': '/Users/latzko/git/rust/src', 'SHELL': '/opt/local/bin/zsh', 'LC_ALL': 'en_US.UTF-8', '_': '/Users/latzko/work/devenv/bin/tox', 'SETUPPY_CFLAGS': '-coverage', 'CXX': '/usr/local/bin/g++-5', 'OLDPWD': '/Users/latzko/work', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'PWD': '/Users/latzko/work/spmcluster', 'TMUX_PANE': '%0'}
+
+Collecting nose
+/Users/latzko/work/spmcluster/.tox/2.6-cover/lib/python2.6/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:90: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Downloading nose-1.3.7-py2-none-any.whl (154kB)
+Collecting coverage
+  Downloading coverage-4.0.tar.gz (166kB)
+Building wheels for collected packages: coverage
+  Running setup.py bdist_wheel for coverage
+  Stored in directory: /Users/latzko/Library/Caches/pip/wheels/a7/01/e2/cf8892daf33f11ef57a872a4a7997d9bc72e78ab2fb8785034
+Successfully built coverage
+Installing collected packages: nose, coverage
+Successfully installed coverage-4.0 nose-1.3.7

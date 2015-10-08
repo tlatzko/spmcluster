@@ -1,0 +1,10 @@
+contributing.rst:40: [broken] https://github.com/tlatzko/spmcluster/fork: HTTP Error 404: Not Found
+readme.rst:3: [broken] https://coveralls.io/r/tlatzko/spmcluster: HTTP Error 404: Not Found
+readme.rst:3: [redirected with Found] https://requires.io/github/tlatzko/spmcluster/requirements/?branch=master to https://requires.io/auth/login/?next=/github/tlatzko/spmcluster/requirements/
+readme.rst:9: [broken] https://readthedocs.org/projects/spmcluster: HTTP Error 404: OK
+readme.rst:3: [broken] https://codecov.io/github/tlatzko/spmcluster: HTTP Error 404: Not Found
+readme.rst:17: [broken] https://readthedocs.org/projects/spmcluster: HTTP Error 404: OK
+readme.rst:29: [redirected with Found] https://requires.io/github/tlatzko/spmcluster/requirements/?branch=master to https://requires.io/auth/login/?next=/github/tlatzko/spmcluster/requirements/
+readme.rst:33: [broken] https://coveralls.io/r/tlatzko/spmcluster: HTTP Error 404: Not Found
+readme.rst:37: [broken] https://codecov.io/github/tlatzko/spmcluster: HTTP Error 404: Not Found
+readme.rst:74: [broken] https://spmcluster.readthedocs.org/: HTTP Error 404: OK

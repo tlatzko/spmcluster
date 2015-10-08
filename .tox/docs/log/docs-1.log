@@ -1,0 +1,43 @@
+actionid: docs
+msg: getenv
+cmdargs: [local('/Users/latzko/work/spmcluster/.tox/docs/bin/pip'), 'install', '-r/Users/latzko/work/spmcluster/docs/requirements.txt']
+env: {'LC_CTYPE': 'UTF-8', 'TERM_PROGRAM_VERSION': '343.7', 'LOGNAME': 'latzko', 'USER': 'latzko', 'PATH': '/Users/latzko/work/spmcluster/.tox/docs/bin:/Users/latzko/work/devenv/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/latzko/work/devenv/bin:/opt/local/bin:/opt/local/sbin', 'HOME': '/Users/latzko', 'PYTHONUNBUFFERED': 'yes', 'PS1': '(devenv)%{\x1b[22;33m%}%1~ %{\x1b[00m%}> ', 'DBUS_LAUNCHD_SESSION_BUS_SOCKET': '/private/tmp/com.apple.launchd.NnNm5mDTEw/unix_domain_listener', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', 'TERM': 'screen-256color', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.OLQt6X4XMr/Render', 'LANGUAGE': 'en_US.UTF-8', 'SHLVL': '2', 'XPC_FLAGS': '0x0', 'DISPLAY': '/private/tmp/com.apple.launchd.iYHSGIQXvo/org.macosforge.xquartz:0', 'TEST_DATA': '/Users/latzko/work/experimental/data', 'PYTHONHASHSEED': '1497305466', 'TMPDIR': '/var/folders/8v/__84m9cj7cb1y1tn84r0cz6r0000gn/T/', 'TERM_SESSION_ID': '0AC84445-6A1A-4E9B-9C50-B8BC9CA3C69E', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.bMDVJflgYP/Listeners', 'CC': '/usr/local/bin/gcc-5', 'PYTHONPATH': '/Users/latzko/work/spmcluster/tests', 'XPC_SERVICE_NAME': '0', 'VIRTUAL_ENV': '/Users/latzko/work/spmcluster/.tox/docs', 'TMUX': '/private/var/folders/8v/__84m9cj7cb1y1tn84r0cz6r0000gn/T/tmux-501/default,10064,0', 'RUST_SRC_PATH': '/Users/latzko/git/rust/src', 'SHELL': '/opt/local/bin/zsh', 'LC_ALL': 'en_US.UTF-8', '_': '/Users/latzko/work/devenv/bin/tox', 'CXX': '/usr/local/bin/g++-5', 'OLDPWD': '/Users/latzko/work', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'PWD': '/Users/latzko/work/spmcluster', 'TMUX_PANE': '%0'}
+
+Obtaining file:///Users/latzko/work/spmcluster (from -r /Users/latzko/work/spmcluster/docs/requirements.txt (line 3))
+Collecting sphinx (from -r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading Sphinx-1.3.1-py2.py3-none-any.whl (1.3MB)
+Collecting sphinxcontrib-napoleon (from -r /Users/latzko/work/spmcluster/docs/requirements.txt (line 2))
+  Downloading sphinxcontrib_napoleon-0.3.11-py2.py3-none-any.whl (166kB)
+Collecting babel>=1.3 (from sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading Babel-2.1.1-py2.py3-none-any.whl (3.6MB)
+Collecting six>=1.4 (from sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading six-1.10.0-py2.py3-none-any.whl
+Collecting sphinx-rtd-theme<0.2,>=0.1 (from sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading sphinx_rtd_theme-0.1.9-py2-none-any.whl (693kB)
+Collecting Pygments>=2.0 (from sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading Pygments-2.0.2-py2-none-any.whl (672kB)
+Collecting snowballstemmer>=1.1 (from sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading snowballstemmer-1.2.0.tar.gz (49kB)
+Collecting alabaster<0.8,>=0.7 (from sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading alabaster-0.7.6-py2-none-any.whl
+Collecting docutils>=0.11 (from sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading docutils-0.12.tar.gz (1.6MB)
+Collecting Jinja2>=2.3 (from sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading Jinja2-2.8-py2.py3-none-any.whl (263kB)
+Collecting pockets>=0.2.1 (from sphinxcontrib-napoleon->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 2))
+  Downloading pockets-0.2.4-py2.py3-none-any.whl
+Collecting pytz>=0a (from babel>=1.3->sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading pytz-2015.6-py2.py3-none-any.whl (475kB)
+Collecting MarkupSafe (from Jinja2>=2.3->sphinx->-r /Users/latzko/work/spmcluster/docs/requirements.txt (line 1))
+  Downloading MarkupSafe-0.23.tar.gz
+Building wheels for collected packages: snowballstemmer, docutils, MarkupSafe
+  Running setup.py bdist_wheel for snowballstemmer
+  Stored in directory: /Users/latzko/Library/Caches/pip/wheels/26/52/99/e0eb6b825c16715026ef290c13f4a0fbb86f1a5eab51bb10a0
+  Running setup.py bdist_wheel for docutils
+  Stored in directory: /Users/latzko/Library/Caches/pip/wheels/d5/32/4f/1347e8ac67071e8150a5dc69354a51a04ac065d0b48334f608
+  Running setup.py bdist_wheel for MarkupSafe
+  Stored in directory: /Users/latzko/Library/Caches/pip/wheels/94/a7/79/f79a998b64c1281cb99fa9bbd33cfc9b8b5775f438218d17a7
+Successfully built snowballstemmer docutils MarkupSafe
+Installing collected packages: pytz, babel, six, sphinx-rtd-theme, Pygments, snowballstemmer, alabaster, docutils, MarkupSafe, Jinja2, sphinx, pockets, sphinxcontrib-napoleon, spm
+  Running setup.py develop for spm
+Successfully installed Jinja2-2.8 MarkupSafe-0.23 Pygments-2.0.2 alabaster-0.7.6 babel-2.1.1 docutils-0.12 pockets-0.2.4 pytz-2015.6 six-1.10.0 snowballstemmer-1.2.0 sphinx-1.3.1 sphinx-rtd-theme-0.1.9 sphinxcontrib-napoleon-0.3.11 spm

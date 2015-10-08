@@ -1,0 +1,117 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/Users/latzko/work/devenv/bin/python2.7', local('/Users/latzko/work/spmcluster/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/latzko/work/spmcluster/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+writing src/spm.egg-info/PKG-INFO
+writing top-level names to src/spm.egg-info/top_level.txt
+writing dependency_links to src/spm.egg-info/dependency_links.txt
+writing entry points to src/spm.egg-info/entry_points.txt
+reading manifest file 'src/spm.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'examples'
+warning: no files found matching '.bumpversion.cfg'
+warning: no files found matching '.coveragerc'
+warning: no files found matching '.cookiecutterrc'
+warning: no files found matching '.isort.cfg'
+warning: no files found matching '.pylintrc'
+warning: no files found matching '.travis.yml'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.dylib' found anywhere in distribution
+writing manifest file 'src/spm.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.txt
+
+creating spm-0.1.0
+creating spm-0.1.0/ci
+creating spm-0.1.0/ci/templates
+creating spm-0.1.0/docs
+creating spm-0.1.0/docs/reference
+creating spm-0.1.0/src
+creating spm-0.1.0/src/spm
+creating spm-0.1.0/src/spm.egg-info
+creating spm-0.1.0/tests
+making hard links in spm-0.1.0...
+hard linking AUTHORS.rst -> spm-0.1.0
+hard linking CHANGELOG.rst -> spm-0.1.0
+hard linking CONTRIBUTING.rst -> spm-0.1.0
+hard linking LICENSE -> spm-0.1.0
+hard linking MANIFEST.in -> spm-0.1.0
+hard linking README.rst -> spm-0.1.0
+hard linking appveyor.yml -> spm-0.1.0
+hard linking setup.cfg -> spm-0.1.0
+hard linking setup.py -> spm-0.1.0
+hard linking tox.ini -> spm-0.1.0
+hard linking ci/appveyor-bootstrap.py -> spm-0.1.0/ci
+hard linking ci/appveyor-download.py -> spm-0.1.0/ci
+hard linking ci/appveyor-with-compiler.cmd -> spm-0.1.0/ci
+hard linking ci/bootstrap.py -> spm-0.1.0/ci
+hard linking ci/templates/.travis.yml -> spm-0.1.0/ci/templates
+hard linking ci/templates/appveyor.yml -> spm-0.1.0/ci/templates
+hard linking ci/templates/tox.ini -> spm-0.1.0/ci/templates
+hard linking docs/authors.rst -> spm-0.1.0/docs
+hard linking docs/changelog.rst -> spm-0.1.0/docs
+hard linking docs/conf.py -> spm-0.1.0/docs
+hard linking docs/contributing.rst -> spm-0.1.0/docs
+hard linking docs/index.rst -> spm-0.1.0/docs
+hard linking docs/installation.rst -> spm-0.1.0/docs
+hard linking docs/readme.rst -> spm-0.1.0/docs
+hard linking docs/requirements.txt -> spm-0.1.0/docs
+hard linking docs/spelling_wordlist.txt -> spm-0.1.0/docs
+hard linking docs/usage.rst -> spm-0.1.0/docs
+hard linking docs/reference/index.rst -> spm-0.1.0/docs/reference
+hard linking docs/reference/spm.rst -> spm-0.1.0/docs/reference
+hard linking src/spm/__init__.py -> spm-0.1.0/src/spm
+hard linking src/spm/__main__.py -> spm-0.1.0/src/spm
+hard linking src/spm.egg-info/PKG-INFO -> spm-0.1.0/src/spm.egg-info
+hard linking src/spm.egg-info/SOURCES.txt -> spm-0.1.0/src/spm.egg-info
+hard linking src/spm.egg-info/dependency_links.txt -> spm-0.1.0/src/spm.egg-info
+hard linking src/spm.egg-info/entry_points.txt -> spm-0.1.0/src/spm.egg-info
+hard linking src/spm.egg-info/not-zip-safe -> spm-0.1.0/src/spm.egg-info
+hard linking src/spm.egg-info/top_level.txt -> spm-0.1.0/src/spm.egg-info
+hard linking tests/test_spm.py -> spm-0.1.0/tests
+copying setup.cfg -> spm-0.1.0
+Writing spm-0.1.0/setup.cfg
+creating '.tox/dist/spm-0.1.0.zip' and adding 'spm-0.1.0' to it
+adding 'spm-0.1.0/appveyor.yml'
+adding 'spm-0.1.0/AUTHORS.rst'
+adding 'spm-0.1.0/CHANGELOG.rst'
+adding 'spm-0.1.0/CONTRIBUTING.rst'
+adding 'spm-0.1.0/LICENSE'
+adding 'spm-0.1.0/MANIFEST.in'
+adding 'spm-0.1.0/PKG-INFO'
+adding 'spm-0.1.0/README.rst'
+adding 'spm-0.1.0/setup.cfg'
+adding 'spm-0.1.0/setup.py'
+adding 'spm-0.1.0/tox.ini'
+adding 'spm-0.1.0/ci/appveyor-bootstrap.py'
+adding 'spm-0.1.0/ci/appveyor-download.py'
+adding 'spm-0.1.0/ci/appveyor-with-compiler.cmd'
+adding 'spm-0.1.0/ci/bootstrap.py'
+adding 'spm-0.1.0/ci/templates/.travis.yml'
+adding 'spm-0.1.0/ci/templates/appveyor.yml'
+adding 'spm-0.1.0/ci/templates/tox.ini'
+adding 'spm-0.1.0/docs/authors.rst'
+adding 'spm-0.1.0/docs/changelog.rst'
+adding 'spm-0.1.0/docs/conf.py'
+adding 'spm-0.1.0/docs/contributing.rst'
+adding 'spm-0.1.0/docs/index.rst'
+adding 'spm-0.1.0/docs/installation.rst'
+adding 'spm-0.1.0/docs/readme.rst'
+adding 'spm-0.1.0/docs/requirements.txt'
+adding 'spm-0.1.0/docs/spelling_wordlist.txt'
+adding 'spm-0.1.0/docs/usage.rst'
+adding 'spm-0.1.0/docs/reference/index.rst'
+adding 'spm-0.1.0/docs/reference/spm.rst'
+adding 'spm-0.1.0/src/spm/__init__.py'
+adding 'spm-0.1.0/src/spm/__main__.py'
+adding 'spm-0.1.0/src/spm.egg-info/dependency_links.txt'
+adding 'spm-0.1.0/src/spm.egg-info/entry_points.txt'
+adding 'spm-0.1.0/src/spm.egg-info/not-zip-safe'
+adding 'spm-0.1.0/src/spm.egg-info/PKG-INFO'
+adding 'spm-0.1.0/src/spm.egg-info/SOURCES.txt'
+adding 'spm-0.1.0/src/spm.egg-info/top_level.txt'
+adding 'spm-0.1.0/tests/test_spm.py'
+removing 'spm-0.1.0' (and everything under it)

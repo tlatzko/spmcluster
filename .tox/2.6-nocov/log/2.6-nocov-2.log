@@ -1,0 +1,12 @@
+actionid: 2.6-nocov
+msg: installpkg
+cmdargs: [local('/Users/latzko/work/spmcluster/.tox/2.6-nocov/bin/pip'), 'install', '/Users/latzko/work/spmcluster/.tox/dist/spm-0.1.0.zip']
+env: {'LC_CTYPE': 'UTF-8', 'TERM_PROGRAM_VERSION': '343.7', 'LOGNAME': 'latzko', 'USER': 'latzko', 'PATH': '/Users/latzko/work/spmcluster/.tox/2.6-nocov/bin:/Users/latzko/work/devenv/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/latzko/work/devenv/bin:/opt/local/bin:/opt/local/sbin', 'HOME': '/Users/latzko', 'PYTHONUNBUFFERED': 'yes', 'PS1': '(devenv)%{\x1b[22;33m%}%1~ %{\x1b[00m%}> ', 'DBUS_LAUNCHD_SESSION_BUS_SOCKET': '/private/tmp/com.apple.launchd.NnNm5mDTEw/unix_domain_listener', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', 'TERM': 'screen-256color', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.OLQt6X4XMr/Render', 'LANGUAGE': 'en_US.UTF-8', 'SHLVL': '2', 'XPC_FLAGS': '0x0', 'DISPLAY': '/private/tmp/com.apple.launchd.iYHSGIQXvo/org.macosforge.xquartz:0', 'TEST_DATA': '/Users/latzko/work/experimental/data', 'PYTHONHASHSEED': '1497305466', 'TMPDIR': '/var/folders/8v/__84m9cj7cb1y1tn84r0cz6r0000gn/T/', 'TERM_SESSION_ID': '0AC84445-6A1A-4E9B-9C50-B8BC9CA3C69E', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.bMDVJflgYP/Listeners', 'CC': '/usr/local/bin/gcc-5', 'PYTHONPATH': '/Users/latzko/work/spmcluster/tests', 'XPC_SERVICE_NAME': '0', 'VIRTUAL_ENV': '/Users/latzko/work/spmcluster/.tox/2.6-nocov', 'TMUX': '/private/var/folders/8v/__84m9cj7cb1y1tn84r0cz6r0000gn/T/tmux-501/default,10064,0', 'RUST_SRC_PATH': '/Users/latzko/git/rust/src', 'SHELL': '/opt/local/bin/zsh', 'LC_ALL': 'en_US.UTF-8', '_': '/Users/latzko/work/devenv/bin/tox', 'CXX': '/usr/local/bin/g++-5', 'OLDPWD': '/Users/latzko/work', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'PWD': '/Users/latzko/work/spmcluster', 'TMUX_PANE': '%0'}
+
+Processing ./.tox/dist/spm-0.1.0.zip
+Building wheels for collected packages: spm
+  Running setup.py bdist_wheel for spm
+  Stored in directory: /Users/latzko/Library/Caches/pip/wheels/3a/c9/cc/2b0e94bd0096af04bc93d511f8cccc7c4d440897c7029ae56e
+Successfully built spm
+Installing collected packages: spm
+Successfully installed spm-0.1.0

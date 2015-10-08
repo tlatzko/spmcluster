@@ -1,0 +1,5 @@
+spm
+===
+
+.. automodule:: spm
+    :members:

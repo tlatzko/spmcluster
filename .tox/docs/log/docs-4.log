@@ -1,0 +1,15 @@
+actionid: docs
+msg: installpkg
+cmdargs: [local('/Users/latzko/work/spmcluster/.tox/docs/bin/pip'), 'install', '-U', '--no-deps', '/Users/latzko/work/spmcluster/.tox/dist/spm-0.1.0.zip']
+env: {'TMPDIR': '/var/folders/8v/__84m9cj7cb1y1tn84r0cz6r0000gn/T/', 'EMACS': 't', 'USER': 'latzko', 'HOME': '/Users/latzko', 'PATH': '/Users/latzko/work/spmcluster/.tox/docs/bin:/Users/latzko/work/devenv/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Applications/Emacs.app/Contents/MacOS/bin-x86_64-10_9:/Applications/Emacs.app/Contents/MacOS/libexec-x86_64-10_9', 'PYTHONUNBUFFERED': 'yes', 'PS1': '(devenv)\\s-\\v\\$ ', 'DISPLAY': '/private/tmp/com.apple.launchd.iYHSGIQXvo/org.macosforge.xquartz:0', 'LANG': 'en_US.UTF-8', 'TERM': 'dumb', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.OLQt6X4XMr/Render', 'SHLVL': '1', 'XPC_FLAGS': '0x0', 'DBUS_LAUNCHD_SESSION_BUS_SOCKET': '/private/tmp/com.apple.launchd.NnNm5mDTEw/unix_domain_listener', 'TEST_DATA': '/Users/latzko/work/experimental/data', 'PYTHONHASHSEED': '1814098314', 'COLUMNS': '202', 'MANPATH': '', 'INSIDE_EMACS': '24.5.1,comint', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.bMDVJflgYP/Listeners', 'CC': '/usr/local/bin/gcc-5', 'PYTHONPATH': '/Users/latzko/work/spmcluster/tests', 'XPC_SERVICE_NAME': '0', 'VIRTUAL_ENV': '/Users/latzko/work/spmcluster/.tox/docs', 'SHELL': '/bin/bash', 'LC_ALL': 'en_US.UTF-8', '_': '/Users/latzko/work/devenv/bin/tox', 'TERMCAP': '', 'CXX': '/usr/local/bin/g++-5', 'OLDPWD': '/Users/latzko/work/spmcluster/src/spm', '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0', 'PWD': '/Users/latzko/work/spmcluster', 'LOGNAME': 'latzko'}
+
+Processing ./.tox/dist/spm-0.1.0.zip
+Building wheels for collected packages: spm
+  Running setup.py bdist_wheel for spm
+  Stored in directory: /Users/latzko/Library/Caches/pip/wheels/3a/c9/cc/2b0e94bd0096af04bc93d511f8cccc7c4d440897c7029ae56e
+Successfully built spm
+Installing collected packages: spm
+  Found existing installation: spm 0.1.0
+    Uninstalling spm-0.1.0:
+      Successfully uninstalled spm-0.1.0
+Successfully installed spm-0.1.0
